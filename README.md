@@ -1,35 +1,43 @@
 # ToyRobot
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/toy_robot`. To experiment with that code, run `bin/console` for an interactive prompt.
+Coding challenge from AUCLOUD.  
 
-TODO: Delete this and the text above, and describe your gem
+The problem has been solved in Ruby. I had access to a windows OS laptop. 
 
-## Installation
+##SetUp
 
-Add this line to your application's Gemfile:
+1. Please make Ruby version Ruby 2.7.2 is installed on your machine. 
+	
+   (https://www.ruby-lang.org/en/documentation/installation/)
 
-```ruby
-gem 'toy_robot'
-```
+2. gem install bulder -v 2.2.3 and gem install rspec
 
-And then execute:
 
-    $ bundle install
+3. clone Repository https://github.com/KarthickNarayana/toy_robot.git
 
-Or install it yourself as:
+3. Run the program by 
 
-    $ gem install toy_robot
+	cd to toy_robot 
 
-## Usage
+   bundle exec ruby exe/toy_robot.rb exe/commands.txt
 
-TODO: Write usage instructions here
 
-## Development
+   The project has a directory called exe and we can place all our commands in text file in that directory. 
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+   The output should be on the cmd prompt.  commands.txt and commands.01 are two files with commands.  
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
-## Contributing
+4. Test cases: from root of the project
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/toy_robot.
+	bundle exec rspec spec
+
+
+It would be very convienient to view the code in an editor like RubyMine.  This makes execution or installing dependencies easier.
+
+
+
+
+
+
+
+
